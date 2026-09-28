@@ -1,0 +1,34 @@
+# ── .NET / backend ───────────────────────────
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# ── Flutter / mobile ─────────────────────────
+.dart_tool/
+.build/
+build/
+.pub-cache/
+.pub/
+coverage/
+.flutter-plugins-dependencies
+flutter_export_environment.sh
+*.iml
+.idea/
+.vscode/
+*.apk
+*.zip
+
+# ── Firebase / secrets ───────────────────────
+google-services.json
+GoogleService-Info.plist
+*.env
+.env.*
+
+# ── OS / editor ──────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+node_modules/
